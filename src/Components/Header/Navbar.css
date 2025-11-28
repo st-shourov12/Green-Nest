@@ -1,0 +1,8 @@
+.menu a.active , .menu-end a.active{
+    color: green;
+}
+
+.log-btn a.active{
+    border-color: red;
+    color: red;
+}
