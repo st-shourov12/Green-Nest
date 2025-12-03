@@ -22,15 +22,15 @@ const Footer = () => {
                     
 
                     <div className="social justify-self-start md:row-start-1 md:col-start-1 flex flex-col justify-between gap-4">
-                        <Link to={"/"} className='flex gap-2 items-center hover:text-emerald-200' ><FaHome  /><span className='font-medium '>About</span></Link>
-                        <Link to={"/plants"} className='flex gap-2 items-center hover:text-emerald-200' ><FaLock /><span className='font-medium '>Privacy</span></Link>
+                        <Link to={"/about"} className='flex gap-2 items-center hover:text-emerald-200' ><FaHome  /><span className='font-medium '>About</span></Link>
+                        <Link to={"/privacy"} className='flex gap-2 items-center hover:text-emerald-200' ><FaLock /><span className='font-medium '>Privacy</span></Link>
                         <Link to={"/myProfile"} className='flex gap-2 items-center hover:text-emerald-200' ><FaPerson /><span className='font-medium '>Contact</span></Link>
                         
                     </div>
                         <div className="social justify-self-end items-end flex flex-col justify-between gap-4">
                             <a href="https://www.facebook.com/mirazulislam.shourov" target="_blank" className='flex gap-2 items-center hover:text-emerald-200' ><FaFacebookF  /><span className='font-medium '>Facebook</span></a>
                             <a href="https://github.com/st-shourov12/" target="_blank" className='flex gap-2 items-center hover:text-emerald-200' ><FaGithub /><span className='font-medium '>GitHub</span></a>
-                            <a href="https://www.linkedin.com/in/md-mirazul-islam-shourov-69a05637a/" target="_blank" className='flex gap-2 items-center hover:text-emerald-200' ><FaLinkedin /><span className='font-medium '>LinkedIn</span></a>
+                            <a href="https://www.linkedin.com/in/miraz-shourov/" target="_blank" className='flex gap-2 items-center hover:text-emerald-200' ><FaLinkedin /><span className='font-medium '>LinkedIn</span></a>
                         </div>
 
 

@@ -9,6 +9,8 @@ import Register from "../Login/Register";
 import PrivateRoutes from "./PrivateRoutes";
 import Forgot from "../Login/Forgot";
 import Error from "../Error/Error";
+import AboutUs from "../AboutSection/AboutUs";
+import PrivacyPolicy from "../AboutSection/PrivacyPolicy";
 
 const router = createBrowserRouter([
     {
@@ -23,6 +25,14 @@ const router = createBrowserRouter([
             {
                 path: '/plants',
                 Component: Plants,
+            },
+            {
+                path: '/about',
+                Component: AboutUs,
+            },
+            {
+                path: '/privacy',
+                Component: PrivacyPolicy ,
             },
             {
                 path: '/myProfile',

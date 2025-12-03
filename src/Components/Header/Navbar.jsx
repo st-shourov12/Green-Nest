@@ -23,6 +23,12 @@ const Navbar = () => {
                             <NavLink to={'/plants'}>Plants</NavLink>
                             </li>
                             {user && <li><NavLink to={'/myProfile'}>My Profile</NavLink></li>}
+                            <li>
+                            <NavLink to={'/about'}>About Us</NavLink>
+                            </li>
+                            <li>
+                                <NavLink to={'/privacy'}  >Privacy & Policy</NavLink>
+                            </li>
                         </ul>
                     </div>
                     <h2>
@@ -31,11 +37,17 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                    <li><NavLink to={'/'} className={'md:text-lg'}>Home</NavLink></li>
+                    <li><NavLink to={'/'} >Home</NavLink></li>
                     <li>
-                        <NavLink to={'/plants'} className={'md:text-lg'}>Plants</NavLink>
+                        <NavLink to={'/plants'} >Plants</NavLink>
                     </li>
-                    {user  && <li><NavLink to={'/myProfile'} className={'md:text-lg'}>My Profile</NavLink></li>}
+                    {user  && <li><NavLink to={'/myProfile'} >My Profile</NavLink></li>}
+                    <li>
+                        <NavLink to={'/about'} >About Us</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to={'/privacy'}  >Privacy & Policy</NavLink>
+                    </li>
                     </ul>
                 </div>
                 <div className="navbar-end menu-end flex gap-2">
