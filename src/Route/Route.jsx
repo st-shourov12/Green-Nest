@@ -30,7 +30,7 @@ const router = createBrowserRouter([
             },
             {
                 path: '/plants/:id',
-                element : <PrivateRoutes><PlantDetails></PlantDetails></PrivateRoutes>
+                element : <PlantDetails></PlantDetails>
             },
             {
                 path: '/login',

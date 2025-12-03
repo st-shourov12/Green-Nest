@@ -15,16 +15,16 @@ const Plants = ({filterPlant}) => {
     }
 
     return (
-        <div className='flex px-2 bg-green-100 py-10 flex-col justify-between gap-8 items-center'>
+        <div className={`flex w-full mx-auto bg-green-100 py-20 flex-col justify-between gap-8 items-center`}>
             <title>Green Nest - Plants</title>
             {
                 px.length < 12 ? 
-                <h2 className='text-3xl text-center font-bold text-green-800'>Our Top Rated Plants</h2> : 
-                <h2 className='text-3xl text-center font-bold text-green-800'>Our Plants</h2>
+                <h2 className='text-xl md:text-3xl font-bold text-center text-green-800'>Our Top Rated Plants</h2> : 
+                <h2 className='text-xl md:text-3xl font-bold text-center text-green-800'>Our Plants</h2>
             }
             
 
-            <div className={`w-full grid sm:grid-cols-2  lg:grid-cols-3 ${px.length === 12 ? '2xl:grid-cols-4' : '2xl:grid-cols-3'} gap-5 items-center `}>
+            <div className={`w-full mx-auto grid sm:grid-cols-2  lg:grid-cols-3 ${px.length === 12 ? '2xl:grid-cols-4' : '2xl:grid-cols-3'} gap-5 items-center `}>
                 {
                     px.map(plant =>
                         <PlantCard key={plant.id} plant={plant}></PlantCard>

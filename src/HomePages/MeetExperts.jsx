@@ -2,10 +2,10 @@ import React from 'react';
 
 const MeetExperts = () => {
     return (
-        <div className='px-5 py-20 bg-emerald-100  '>
+        <div className=' py-20 bg-emerald-100  '>
             <div className="w-11/12 mx-auto">
             
-                <h2 className='text-xl md:text-3xl text-bold text-center mb-5'>Meet Our Expert</h2>
+                <h2 className='text-xl md:text-3xl font-bold text-center mb-5'>Meet Our Expert</h2>
                 <p className='md:text-xl mb-5 text-semibold text-center text-gray-700 lg:w-2/3 mx-auto'>
                     There are top Expert in botany sector with us . They are always here to guide you to make the nature more standard
                 </p>

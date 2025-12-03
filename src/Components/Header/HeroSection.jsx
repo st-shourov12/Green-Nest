@@ -20,13 +20,13 @@ export default function HeroSection() {
   ];
 
   return (
-    <div className="w-full px-5 bg-green-100">
+    <div className="w-full mx-auto bg-green-100">
       <Swiper
         modules={[Autoplay]}
         autoplay={{ delay: 1000, disableOnInteraction: false }}
         loop={true}
         speed={3000}
-        className="sm:w-2/3 h-[300px] sm:h-[400px] mx-auto rounded-xl"
+        className="w-11/12 mx-auto h-[400px] sm:h-[450px]  rounded-xl"
       >
         {slides.map((slide, i) => (
           <SwiperSlide key={i}>

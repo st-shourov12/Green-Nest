@@ -3,7 +3,7 @@ import React from 'react';
 const PlantCare = () => {
     return (
         <div className='p-5 sm:p-10 md:p-20 bg-emerald-600 '>
-            <h2 className='text-xl md:text-3xl text-bold text-center text-white mb-5'>Plant Care Tips</h2>
+            <h2 className='text-xl md:text-3xl font-bold text-center text-white mb-5'>Plant Care Tips</h2>
             <p className='md:text-xl mb-5 text-semibold text-center text-white lg:w-2/3 mx-auto'>
                 Plants are full of life . They need proper care for living . 
             </p>
